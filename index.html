@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./src/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="manifest" href="manifest.json">
+    <!-- ios support -->
+ <link rel="apple-touch-icon" href="/img/icons/icon-96x96.png">
+ <meta name="apple-mobile-web-app-status-bar" content="#FFE1C4">
+
+    <title>To do list</title>
+</head>
+<body>
+    <main class="container">
+        Labas
+        <div class="jumbotron">
+            <h1>To do app</h1>
+            <hr>
+            <textarea type="text" placeholder="Task name" id="taskName" class="form-control" rows="3"></textarea>
+            <button id="add" class="btn btn-primary">Add task</button>
+        </div>
+        <div>
+            <ul class="list-group" id="task-list">
+                    <li class="list-group-item disabled">Cras justo odio</li>
+
+            </ul>
+        </div>
+    </main>
+    
+
+    <script src="./src/js/app.js"></script>
+</body>
+</html>
